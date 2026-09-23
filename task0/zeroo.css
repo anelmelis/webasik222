@@ -32,7 +32,7 @@ body{
     color: rgb(86, 35, 117);
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: solid;
+    text-decoration: none;
 }
 .nav :hover{
     color: rgb(246, 18, 18);
