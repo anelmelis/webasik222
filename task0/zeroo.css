@@ -29,6 +29,7 @@ body{
     gap:20px;
 }
 .nav a{
+    color: rgb(86, 35, 117);
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: solid;
