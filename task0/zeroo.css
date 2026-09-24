@@ -34,6 +34,6 @@ body{
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
-.nav :hover{
+.nav a:hover{
     color: rgb(246, 18, 18);
 }
