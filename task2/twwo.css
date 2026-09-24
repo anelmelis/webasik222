@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(233, 253, 255);
+}
+
+.cont {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 100px 1fr 70px;
+
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+}
+
+.hed {
+    grid-area: header;
+    background-color: rgb(233, 253, 255);
+    padding: 10px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color:rgb(251, 248, 244);
+    padding: 20px;
+}
+.sidebar a{
+    display: block;
+    color:rgb(47, 70, 70);
+    margin-bottom: 10px;
+}
+.sidebar a:hover{
+    color: brown;
+}
+
+.main {
+    grid-area: main;
+    background-color: rgb(251, 241, 241);
+    padding: 20px;
+}
+.main p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 29, 29);
+}
+
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(223, 253, 255);
+    padding: 20px;
+}
