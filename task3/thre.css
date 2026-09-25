@@ -13,8 +13,6 @@ header {
 .gallery {
     display: grid;
 
-    border: 1px solid black;
-
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 250px);
 
@@ -58,4 +56,19 @@ header {
 
 .gall:hover .caption {
     opacity: 1;
+}
+
+.nav{
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+}
+.nav a{
+    color: rgb(86, 35, 117);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: rgb(246, 18, 18);
 }

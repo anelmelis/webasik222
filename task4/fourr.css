@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(233, 253, 255);
+}
+
+.hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+
+    background-color: rgb(233, 253, 255);
+}
+
+.logo h1 {
+    margin: 0;
+    color: rgb(59, 24, 38);
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav a {
+    color: rgb(59, 24, 38);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: brown;
+}
+
+
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0px;
+    padding: 0px;
+}
+
+.prj {
+    background-color:rgb(251, 255, 255);
+    padding: 25px;
+    border: 1px solid rgb(27, 21, 23);
+    border-radius: 1px;
+}
+
+.list {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    background-color: rgb(252, 221, 221);
+
+    border: 2px solid rgb(134, 67, 94);
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card button {
+    margin-top: auto;
+
+    padding: 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: aliceblue;
+
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: rgb(244, 177, 191);
+}
+
+
+
+
+.info {
+    background-color: rgb(255, 242, 249);
+    padding: 25px;
+    border: 1px solid rgb(27, 24, 25);
+    border-radius: 1px;
+}
+
+
+
+
+.footer {
+    padding: 30px;
+    text-align: center;
+
+    background-color: rgb(223, 253, 255);
+}

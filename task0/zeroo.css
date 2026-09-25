@@ -8,6 +8,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-color: rgb(249, 240, 230);
+    border-bottom: 1px solid rgb(64, 38, 48);
 }
 
 .logo{
